@@ -1,0 +1,204 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="store">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="details" ></xs:element>
+            <xs:element ref="giftcards"></xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="details">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="storeName"></xs:element>
+                <xs:element ref="address"></xs:element>
+                <xs:element ref="teleNumber"></xs:element>
+                <xs:element ref="URL"></xs:element>
+                <xs:element ref="logo"></xs:element>
+            </xs:all>
+        </xs:complexType>
+        
+    </xs:element>
+    <xs:element name="storeName">
+        
+<xs:complexType mixed="true">
+    <xs:all>
+         <xs:element ref="h1"></xs:element>
+    </xs:all>
+</xs:complexType>
+    </xs:element>
+    <xs:element name="h1" type="xs:string"></xs:element>
+    <xs:element name="address" type="xs:string"></xs:element>
+    <xs:element name="teleNumber">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="li" minOccurs="1" maxOccurs="2"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="li">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element ref="number" minOccurs="0" maxOccurs="1"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+<xs:element name="number">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute ref="type" use="required"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:element>
+<xs:attribute name="type" >
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="mobile"></xs:enumeration>
+            <xs:enumeration value="telephone"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:attribute>
+
+    <xs:element name="URL" type="xs:string"></xs:element>
+    <xs:element name="logo">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="name" use="required"></xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="name" type="xs:string"></xs:attribute>
+
+    <xs:element name="giftcards">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="div" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="div">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title"></xs:element>
+                <xs:element ref="cards"></xs:element>
+            </xs:sequence>
+            <xs:attribute ref="row" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="title" type="xs:string"></xs:element>
+    <xs:element name="cards">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="card" minOccurs="1" maxOccurs="4"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="card">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"></xs:element>
+                <xs:element ref="image"></xs:element>
+                <xs:element ref="type"></xs:element>
+                <xs:element ref="enabled"></xs:element>
+                <xs:element ref="cost"></xs:element>
+                <xs:element ref="validity" minOccurs="0" maxOccurs="1"></xs:element>
+                <xs:element ref="numberOfUsers" minOccurs="0" maxOccurs="1"></xs:element>
+                <xs:element ref="discount" minOccurs="0" maxOccurs="1"></xs:element>
+                <xs:element ref="manufacturer"></xs:element>
+                <xs:element ref="quantity" minOccurs="0" maxOccurs="1"></xs:element>
+                <xs:element ref="popularity"></xs:element>
+                <xs:element ref="region" minOccurs="0" maxOccurs="1"></xs:element>
+
+            </xs:sequence>
+            <xs:attribute ref="id" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="name" type="xs:string"></xs:element>
+    <xs:element name="image">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="name"></xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="type" type="xs:string"></xs:element>
+    <xs:element name="enabled" type="xs:string"></xs:element>
+    <xs:element name="cost">
+        <xs:complexType>
+            <xs:simpleContent><xs:extension base="xs:string">
+                <xs:attribute ref="currency" use="required"></xs:attribute>
+            </xs:extension></xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="currency" type="xs:string"></xs:attribute>
+    <xs:element name="validity">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="issueDate"></xs:element>
+                <xs:element ref="validPeriod"></xs:element>
+                <xs:element ref="validRegion"></xs:element>
+
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="issueDate">
+        <xs:complexType>
+            <xs:simpleContent><xs:extension base="xs:string">
+                <xs:attribute ref="date" use="optional"></xs:attribute>
+            </xs:extension></xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="date">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="AD"></xs:enumeration>
+                <xs:enumeration value="BS"></xs:enumeration>
+
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:element name="validPeriod">
+        <xs:complexType>
+            <xs:simpleContent><xs:extension base="xs:string">
+                <xs:attribute ref="period" use="required"></xs:attribute>
+            </xs:extension></xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="period" type="xs:string">
+    </xs:attribute>
+    <xs:element name="validRegion">
+        <xs:complexType>
+            <xs:simpleContent><xs:extension base="xs:string">
+                <xs:attribute ref="location" use="optional"></xs:attribute>
+            </xs:extension></xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="location" type="xs:string">
+    </xs:attribute>
+    <xs:element name="numberOfUsers">
+        <xs:complexType>
+    <xs:sequence>
+        <xs:element ref="li" minOccurs="1" maxOccurs="2"></xs:element>
+    </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="discount" type="xs:string"></xs:element>
+    <xs:element name="manufacturer" type="xs:string"></xs:element>
+    <xs:element name="quantity" type="xs:string"></xs:element>
+    <xs:element name="popularity" type="xs:string"></xs:element>
+    <xs:element name="region" type="xs:string"></xs:element>
+
+    <xs:attribute name="id" type="xs:integer"></xs:attribute>
+<xs:attribute name="row" type="xs:integer"></xs:attribute>
+
+</xs:schema>

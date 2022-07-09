@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="catalog_20048922.css" type="text/css"?>
+<?xml-model href="catalog_20048922.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<store>
+    <details>
+        <storeName>
+            <h1>S  A  M</h1> 
+            Store</storeName>
+        <address>Lalitpur, Kathmandu</address>
+        <teleNumber>
+            <li><number type="telephone">01-4456543</number></li>
+            <li><number type="mobile">9843567232</number></li>
+        </teleNumber>
+        <URL>www.store.com</URL>
+        <logo name="storeLogo"></logo>
+    </details> 
+
+    <giftcards>
+        <div row="1">
+            <title>Gaming</title>
+            <cards>
+            <card id="1">
+                <name>GooglePlay</name>
+                <image name="Google"></image>
+                <type>Physical Card</type>
+                <enabled>Status: Usable</enabled>
+                <cost currency="Rupees">Rs2000</cost>
+                <validity>
+                    <issueDate date="AD"> Issued:16/06/2020</issueDate>
+                    <validPeriod period="years">validyear:5</validPeriod>
+                    <validRegion location="country">Region:USA</validRegion>
+                </validity>
+                <numberOfUsers>
+                    <li>Card Owner</li>
+                    <li>Card Holder</li>
+                </numberOfUsers>
+                <discount>Discount:5%</discount>
+                <manufacturer>Manufacture:Google Arizona LLC</manufacturer>
+                <quantity>Quantity:50</quantity>
+                <popularity>Rating:9/10</popularity>
+                <region>Region:world-wide</region>
+            </card>
+    
+            <card id="2">
+                <name>XBOX</name>
+                <image name="XBOX"></image>
+                <type>Physical Card</type>
+                <enabled>Status: Usable</enabled>
+                <cost currency="Rupees">Rs20000</cost>
+                <validity>
+                    <issueDate date="AD">Issued:1/05/2020</issueDate>
+                    <validPeriod period="years">Validyear:3</validPeriod>
+                    <validRegion location="country">Region:USA</validRegion>
+                </validity>
+                <numberOfUsers>
+                    <li>Card Owner</li>
+                    <li>Card Holder</li>
+                </numberOfUsers>
+                <discount>Discount:9%</discount>
+                <manufacturer>manufactured:Seamus Blackley</manufacturer>
+                <quantity>Quantity:25</quantity>
+                <popularity>Rating:8/10</popularity>
+            </card>
+            <card id="3">
+                <name>PlayStation</name>
+                <image name="PlayStation"></image>
+
+                <type>Physical Card</type>
+                <enabled>Status: Usable</enabled>
+                <cost currency="Rupees">Rs25000</cost>
+                <validity>
+                    <issueDate date="AD">Issued:16/05/2020</issueDate>
+                    <validPeriod period="years">year:6year</validPeriod>
+                    <validRegion location="country">Region:America</validRegion>
+                </validity>
+                <numberOfUsers>
+                    <li>Card Owner</li>
+                    <li>Card Holder</li>
+                </numberOfUsers>
+                <discount>Discount:10%</discount>
+                <manufacturer>manufactured:Sony Computer Entertainment.</manufacturer>
+                <quantity>Quantity:25</quantity>
+                <popularity>Rating:9/10</popularity>
+            </card>
+            <card id="4">
+                <name>Steam</name>
+                <image name="Steam"></image>
+
+                <type>Physical Card</type>
+                <enabled>Status: Usable</enabled>
+                <cost currency="Rupees">Rs20000</cost>
+                <validity>
+                    <issueDate date="AD">Issued:16/07/2020</issueDate>
+                    <validPeriod period="years">Validperiod:4year</validPeriod>
+                    <validRegion location="country">Region:Germany</validRegion>
+                </validity>
+                <numberOfUsers>
+                    <li>Card Owner</li>
+                    <li>Card Holder</li>
+                </numberOfUsers>
+                <discount>Discount:7%</discount>
+                <manufacturer>manufactured:Gabe Logan Newell</manufacturer>
+                <quantity>Quantity:100</quantity>
+                <popularity>Rating:9/10</popularity>
+            </card>
+        </cards>
+        </div>
+
+        <div row="2">
+            <title>Shopping</title>
+        <cards>
+        <card id="5">
+            <name>Amazon</name>
+            <image name="amazon"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">Rs20000</cost>
+            <validity>
+                <issueDate date="AD">Issued:14/06/2020</issueDate>
+                <validPeriod period="years">Validyear:3year</validPeriod>
+                <validRegion location="country">Region:UK</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:5%</discount>
+            <manufacturer>Owner:Jeff Bezos</manufacturer>
+            <quantity>Quantity:200</quantity>
+            <popularity>Rating:8/10</popularity>
+        </card>
+        <card id="6">
+            <name>Apple</name>
+            <image name="Apple"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS30000</cost>
+            <validity>
+                <issueDate date="AD">Issued:10/09/2020</issueDate>
+                <validPeriod period="years">Issuedyear:5year</validPeriod>
+                <validRegion location="country">Region:canada</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:8%</discount>
+            <manufacturer>Manufacturer:Steve Jobs</manufacturer>
+            <quantity>Quantity:50</quantity>
+            <popularity>Rating:9/10</popularity>
+        </card>
+        <card id="7">
+            <name>Ebay</name>
+            <image name="Ebay"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS15000</cost>
+            <validity>
+                <issueDate date="AD">Issued:03/08/2020</issueDate>
+                <validPeriod period="years">Validyear:4</validPeriod>
+                <validRegion location="country">Region:Bali</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:9%</discount>
+            <manufacturer>Manufacturer:Pierre Omidyar</manufacturer>
+            <quantity>Quantity:204</quantity>
+            <popularity>Rating:8/10</popularity>
+        </card>
+        <card id="8">
+            <name>Gucci</name>
+            <image name="Gucci"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS50000</cost>
+            <validity>
+                <issueDate date="AD">Issued:22/11/2020</issueDate>
+                <validPeriod period="years">Validyear:5</validPeriod>
+                <validRegion location="country"></validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Dsicount:10%</discount>
+            <manufacturer>Founder:Guccio Gucci</manufacturer>
+            <quantity>Quantity:400</quantity>
+            <popularity>Rating:9/10</popularity>
+        </card>
+    </cards>
+
+        </div>
+        <div row="3">
+            <title>Entertainment</title>
+        <cards>
+        <card id="9">
+            <name>iTune</name>
+            <image name="iTune"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS9000</cost>
+            <validity>
+                <issueDate date="AD">Issued:24/10/2020</issueDate>
+                <validPeriod period="years">Validyear:4</validPeriod>
+                <validRegion location="country">Region:Brazil</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:5%</discount>
+            <manufacturer>Manufacturer:Apple</manufacturer>
+            <quantity>Quantity:500</quantity>
+            <popularity>Rating:8/10</popularity>
+        </card>
+        <card id="10">
+            <name>Spotify</name>
+            <image name="Spotify"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS8000</cost>
+            <validity>
+                <issueDate date="AD">Issued:26/09/2020</issueDate>
+                <validPeriod period="years">Validyear:5</validPeriod>
+                <validRegion location="country">Region:UK</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:5%</discount>
+            <manufacturer> Founder:Daniel Ek and Martin Lorentzon</manufacturer>
+            <quantity>400</quantity>
+            <popularity>9/10</popularity>
+        </card>
+        <card id="11">
+            <name>Netflix</name>
+            <image name="Netflix"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS7000</cost>
+            <validity>
+                <issueDate date="AD">Issued:28/12/2020</issueDate>
+                <validPeriod period="years">Validyear:7</validPeriod>
+                <validRegion location="country">Region:Argintina</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:7%</discount>
+            <manufacturer>Founder:Reed Hastings and Marc Randolph</manufacturer>
+            <quantity>400</quantity>
+            <popularity>8/10</popularity>
+        </card>
+        <card id="12">
+            <name>Disney</name>
+            <image name="Disney"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS16000</cost>
+            <validity>
+                <issueDate date="AD">Issued:01/12/2020</issueDate>
+                <validPeriod period="years">Validyear:5</validPeriod>
+                <validRegion location="country">Region:USA</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:5%</discount>
+            <manufacturer>Manufacturer:The Walt Disney Company</manufacturer>
+            <quantity>Quantity:150</quantity>
+            <popularity>Rating:9/10</popularity>
+        </card>
+    </cards>
+    </div>
+<div row="4">
+    <title>Bank</title>
+<cards>
+        <card id="13">
+            <name>MasterCard</name>
+            <image name="MasterCard"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS100000</cost>
+            <validity>
+                <issueDate date="AD">Issued:16/07/2020</issueDate>
+                <validPeriod period="years">Validyear:8</validPeriod>
+                <validRegion location="country">Region:Brzil</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:5%</discount>
+            <manufacturer>Founder:Ajay Banga</manufacturer>
+            <quantity>Quantity:100</quantity>
+            <popularity>Rating:8/10</popularity>
+        </card>
+        <card id="14">
+            <name>PayPal</name>
+            <image name="PayPal"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS200000</cost>
+            <validity>
+                <issueDate date="AD">Issued:21/06/2020</issueDate>
+                <validPeriod period="years">Validyear:6</validPeriod>
+                <validRegion location="country">Region:UK</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:8%</discount>
+            <manufacturer>Owner:John Donahoe</manufacturer>
+            <quantity>Quantity:300</quantity>
+            <popularity>Rating:9/10</popularity>
+        </card>
+        <card id="15">
+            <name>AmericanExpress</name>
+            <image name="AmericanExpress"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS400000</cost>
+            <validity>
+                <issueDate date="AD">Issued:23/10/2020</issueDate>
+                <validPeriod period="years">Validyear:6</validPeriod>
+                <validRegion location="country">Region:Argintina</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:5%</discount>
+            <manufacturer>Founder:Stephen J. Squeri, Jeffrey C. Campbell</manufacturer>
+            <quantity>Quantity:250</quantity>
+            <popularity>Rating:8/10</popularity>
+        </card>
+        <card id="16">
+            <name>VISA</name>
+            <image name="visa"></image>
+            <type>Physical Card</type>
+            <enabled>Status: Usable</enabled>
+            <cost currency="Rupees">RS300000</cost>
+            <validity>
+                <issueDate date="AD">Issued:26/10/2020</issueDate>
+                <validPeriod period="years">Validyear:6</validPeriod>
+                <validRegion location="country">Region:USA</validRegion>
+            </validity>
+            <numberOfUsers>
+                <li>Card Owner</li>
+                <li>Card Holder</li>
+            </numberOfUsers>
+            <discount>Discount:10%</discount>
+            <manufacturer>Founder:Dee Hock </manufacturer>
+            <quantity>Quantity:400</quantity>
+            <popularity>Rating:9/10</popularity>
+        </card>
+    </cards>
+</div>  
+    </giftcards>
+</store>

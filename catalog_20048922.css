@@ -1,0 +1,258 @@
+
+store{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+details
+{
+    background-image: url(./images/storenamebg.gif);
+    height: 200px;
+    width: inherit;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: rgb(201, 129, 249);
+    border: 3px solid black;
+}
+
+storeName{
+  display: block;
+    font-size: 24px;
+    font-weight: bold;
+    background-size: contain;
+    color: rgb(201, 129, 249);
+}
+
+h1{
+  display: block;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+}
+
+div[row="1"]
+{
+  font-family: cursive;
+  background-image: url(./images/div1.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+div[row="2"]
+{
+  font-family: cursive;
+  background-image: url(./images/div2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+div[row="3"]
+{
+  font-family: cursive;
+  background-image: url(./images/div3.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+div[row="4"]
+{
+  font-family: cursive;
+  background-image: url(./images/div4.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+giftcards
+{
+  background-image: url(./images/DivImag.gif);
+  background-size: cover;
+}
+
+cards
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+card
+{
+  background-image: url(./images/Wallpaper.jpg);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(182, 166, 231);
+  padding: 10px;
+  height:550px;
+  width: 220px;
+  align-items: center; 
+  text-align: center;  
+}
+
+name
+{
+  text-align: center;
+  font-size: 23px;
+}
+
+image
+{
+  display: flex;
+  height: 250px;
+  width:180px;
+}
+
+image:hover{
+  width: 200px;
+  height: 300px;
+}
+
+image[name="Google"]
+{
+  background-image: url(./images/google.png);
+  background-size: cover;
+  width: 200px;
+  height: 270px;
+}
+
+image[name="XBOX"]
+{
+  background-image: url(./images/Xbox.png);
+  background-size: cover;
+}
+
+image[name="PlayStation"]
+{
+  background-image: url(./images/PlayStation.jpg);
+  background-size: cover;
+}
+
+image[name="Steam"]
+{
+  background-image: url(./images/Steam.jpeg);
+  background-size: cover;
+}
+
+image[name="Apple"]
+{
+  background-image: url(./images/apple.png);
+  background-size: cover;
+}
+
+image[name="iTune"]
+{
+  background-image: url(./images/Itune.jpeg);
+  background-size: cover;
+}
+
+image[name="Spotify"]
+{
+  background-image: url(./images/Spotify1.png);
+  background-size: cover;
+}
+
+image[name="Netflix"]
+{
+  background-image: url(./images/Netflix.jpeg);
+  background-size: cover;
+}
+
+image[name="Disney"]
+{
+  background-image: url(./images/Disney.png);
+  background-size: cover;
+}
+
+
+image[name="amazon"]
+{
+  background-image: url(./images/amazon.jpg);
+  background-size: cover;
+}
+
+image[name="Ebay"]
+{
+  background-image: url(./images/Ebay.png);
+  background-size: cover;
+}
+
+image[name="Gucci"]
+{
+  background-image: url(./images/Gucci.jpg);
+  background-size: cover;
+}
+
+image[name="MasterCard"]
+{
+  background-image: url(./images/MasterCard.png);
+  background-size: cover;
+}
+
+image[name="PayPal"]
+{
+  background-image: url(./images/PayPal.png);
+  background-size: cover;
+}
+
+image[name="AmericanExpress"]
+{
+  background-image: url(./images/AmericanExpress.png);
+  background-size: cover;
+}
+
+
+
+image[name="visa"]
+{
+  background-image: url(./images/visa2.png);
+  background-size: cover;
+}
+
+title
+{
+  width: inherit;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  height: 30px;
+  color: rgb(154, 87, 248);
+}
+
+title:hover
+{
+  font-size: 26px;
+}
+
+
+li{
+  display: list-item;
+  list-style: circle;
+  list-style: inside;
+}
+
+
+
+logo {
+  background-size:50%;
+  background-color:transparent;
+  background-repeat: no-repeat;
+  display: block;
+  position:absolute;
+  height: 30%;
+  width: 25%;
+  left:10px;
+  top:0px;
+}
